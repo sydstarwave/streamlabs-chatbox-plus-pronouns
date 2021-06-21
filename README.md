@@ -26,3 +26,9 @@ This builds upon [Alejo47's chat_pronouns_browser_extension](https://github.com/
 
 
 ![image](https://user-images.githubusercontent.com/84608425/122707603-2c080e80-d20f-11eb-9920-f6f5c8c7b329.png)
+
+
+5. View your new chatbox!
+
+
+![image](https://user-images.githubusercontent.com/84608425/122709647-873c0000-d213-11eb-8330-1c62f037de17.png)
