@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font: 0.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 0 1px #000, 0 0 2px #000;
+    background: {background_color};
+    font-weight: 700;
+    font-size: {font_size};
+    line-height: 1.5em;
+    color: {text_color};
+}
+
+.name {
+    font-weight: 700;
+    margin-left: 0.1em;
+}
+
+.badge, .colon, .name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.colon, .name {
+    height: 24px;
+}
+
+.badge {
+    margin-right: 4px;
+    height: 1em;
+}
+
+#log {
+	font: 0.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px;
+    width: 100%;
+  	box-sizing: border-box;
+}
+
+#log>div {
+    padding-bottom: 0.4em;
+    animation: fadeOut 1s ease 99999999s forwards;
+    -webkit-animation: fadeOut 1s ease 99999999s forwards;
+    word-wrap: break-word;
+}
+
+#log>div.deleted {
+    visibility: hidden;
+}
+
+#log .emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0.4em 0.2em;
+    position: relative;
+}
+
+#log .emote img {
+    display: inline-block;
+    height: 1em;
+    opacity: 0;
+}
+
+#log .message,#log .meta {
+    vertical-align: middle;
+    padding-bottom: 0.1em;
+}
+
+#log .meta {
+	padding-right: 4px;
+    position: relative;
+    /* top: -1px; */
+}
+
+.user-pronoun {
+    color: #fff;
+    background: transparent;
+    background-size: 1.8rem;
+    background-image: undefined;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    font-size: 1rem;
+    align-items: center;
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 .3rem .2rem 0;
+    vertical-align: middle;
+    padding-left: .5rem!important;
+    padding-right: .5rem!important;
+}
